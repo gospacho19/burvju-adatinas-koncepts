@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Burvju adatiņas · šūšana un apģērbu labošana · Brīvības gatve 201, Rīga</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --wall:#33363a; --wall-2:#3f4347; --cream:#faf6ef; --ink:#202225; --mut:#6c6f73; --rule:#e2dccf;
+  --thread:#18b3ad; --thread-2:#0f8f8a; --pin:#e0457b;
+  --script:"Pacifico","Brush Script MT",cursive; --sans:"Manrope",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  --edge:max(28px,calc((100vw - 1104px)/2)); --pad:28px; --tape:#f2d675;
+}
+*{box-sizing:border-box}
+html{background:var(--cream)}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 17px/1.62 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit} img{display:block;max-width:100%;height:auto}
+.wrap{max-width:1160px;margin:0 auto;padding:0 var(--pad)}
+[data-lang][hidden]{display:none!important}
+.cap{font:700 .7rem/1.4 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--thread-2)}
+h2{margin:0 0 .45em;font:700 clamp(2rem,4vw,3rem)/1.08 var(--sans);letter-spacing:-.02em}
+.stitch{border:0;border-top:2px dashed var(--thread);margin:0;opacity:.8}
+.notice{background:#1d1f21;color:#c5c8cb;font:500 .74rem/1.4 var(--sans);text-align:center;padding:8px 20px}.notice b{color:#fff}
+
+/* dark wall, turquoise script — her sign */
+.top{background:var(--wall);color:#fff}
+.mast{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-top:18px;padding-bottom:14px}
+.logo{font:400 2rem/1.2 var(--script);color:var(--thread);text-decoration:none;text-shadow:0 0 18px rgba(24,179,173,.35)}
+.langs{display:flex;border:1px solid #5a5e63;border-radius:30px;overflow:hidden}
+.langs button{border:0;background:transparent;color:#c5c8cb;font:700 .72rem/1 var(--sans);letter-spacing:.1em;padding:.7em 1em;cursor:pointer}
+.langs button[aria-pressed=true]{background:var(--thread);color:#0d2b2a}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;min-height:min(84vh,780px)}
+.hero .txt{display:flex;flex-direction:column;justify-content:center;padding:48px 56px 56px var(--edge)}
+.hero h2{font-size:clamp(2.4rem,5vw,4.1rem);color:#fff;margin:.2em 0 .45em}
+.hero h2 i{font-style:normal;color:var(--thread)}
+.hero p{margin:0 0 1.8em;color:#d6d9dc;max-width:31em;font-size:1.08rem}
+.cta{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;text-decoration:none;background:var(--thread);color:#08302e;font:700 .95rem/1 var(--sans);padding:1.05em 1.5em;border-radius:40px;transition:background .18s}
+.btn:hover{background:#3fd0ca}
+.tel{text-decoration:none;color:#fff;font:700 1.25rem/1 var(--sans);border-bottom:2px dashed var(--thread);padding-bottom:.25em}
+.hero .pic{position:relative;overflow:hidden}
+.hero .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+/* what people bring: three with her own photographs */
+.bring{padding:88px 0 40px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin:1.8em 0 2em}
+.piece{margin:0}
+.piece img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px}
+.piece h3{margin:.9em 0 .25em;font:700 1.3rem/1.2 var(--sans);letter-spacing:-.01em}
+.piece p{margin:0;color:var(--mut);font-size:.98rem}
+.also{padding:16px 0 0;color:var(--ink);font-weight:500}
+.also .cap{margin-right:.8em}
+
+/* reviews: a turquoise band, each review a sewn-in garment label */
+.voice{padding:84px 0 92px;background:var(--thread) repeating-linear-gradient(135deg,rgba(255,255,255,.07) 0 2px,transparent 2px 7px);color:#072c2a}
+.vhead{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:34px}
+.vhead .cap{color:#075551} .vhead h2{margin:.1em 0 0;color:#062321}
+.stars{font:400 1.7rem/1 var(--sans);letter-spacing:.18em;color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.12)}
+.labels{display:grid;grid-template-columns:7fr 5fr;gap:26px 30px;align-items:stretch}
+.label{position:relative;margin:0;background:var(--cream);color:var(--ink);padding:34px 34px 28px;border-radius:5px;box-shadow:0 14px 34px rgba(4,50,48,.28);outline:2px dashed var(--thread-2);outline-offset:-11px}
+.label:before,.label:after{content:"✕";position:absolute;top:-9px;font:700 15px/1 var(--sans);color:var(--pin)}
+.label:before{left:18px} .label:after{right:18px}
+.label blockquote{margin:0;font:500 1.06rem/1.55 var(--sans)}
+.label figcaption{margin-top:1.1em;font:700 .68rem/1.4 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--thread-2)}
+.label.big{grid-row:1/3;display:flex;flex-direction:column;justify-content:center;padding:44px 44px 36px;transform:rotate(-.8deg)}
+.label.big blockquote{font:700 clamp(1.55rem,2.9vw,2.35rem)/1.22 var(--sans);letter-spacing:-.02em}
+.label.big blockquote b{font:400 1.12em/1 var(--script);color:var(--thread-2);letter-spacing:0;white-space:nowrap}
+.label:nth-child(2){transform:rotate(.9deg)} .label:nth-child(3){transform:rotate(-.6deg)}
+
+/* composer */
+.ask{background:var(--wall);color:#e9ebed;padding:88px 0}
+.ask h2{color:#fff} .ask h2 i{font:400 1em/1 var(--script);color:var(--thread);letter-spacing:0}
+.ask .intro{margin:0 0 2.2em;color:#b4b8bc;max-width:34em}
+.ask .grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+.ask .cap{display:block;margin:0 0 .7em;color:#7fd6d2}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 1.7em}
+.chips button{border:1px dashed #6a6f74;background:transparent;color:#e9ebed;font:500 .95rem/1 var(--sans);padding:.72em 1.05em;border-radius:40px;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--thread);border:1px solid var(--thread);color:#08302e}
+.ask textarea{width:100%;min-height:90px;background:var(--wall-2);border:1px solid #5a5e63;color:#fff;font:400 1rem/1.4 var(--sans);padding:.85em 1em;border-radius:10px;resize:vertical}
+.preview{background:var(--cream);color:var(--ink);padding:26px 28px;border-radius:12px;border:2px dashed var(--thread)}
+.preview .cap{color:var(--mut)} .preview pre{margin:.2em 0 1.3em;white-space:pre-wrap;font:400 1rem/1.6 var(--sans)}
+.send a{display:inline-block;text-decoration:none;background:var(--ink);color:#fff;font:700 .9rem/1 var(--sans);padding:1em 1.4em;border-radius:40px}
+.tiny{margin:1.1em 0 0;font-size:.8rem;color:var(--mut)}
+
+/* visit: open-now line, the week as a tailor's tape, big tap targets, her neon sign */
+.visit{padding:88px 0 44px}
+.vgrid{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
+.now{display:inline-flex;align-items:center;gap:.6em;margin:0 0 1.5em;padding:.55em 1em .55em .8em;border-radius:40px;background:#e6f6f5;color:#0b5956;font:700 .95rem/1.2 var(--sans)}
+.now:before{content:"";width:.7em;height:.7em;border-radius:50%;background:var(--thread)} .now.shut{background:#f3ece4;color:#6b5a48} .now.shut:before{background:#b9a48c}
+.tape{position:relative;display:grid;grid-template-columns:repeat(7,1fr);margin:0 0 .6em 14px;border-radius:0 6px 6px 0;box-shadow:0 6px 16px rgba(60,50,20,.16);
+  background:repeating-linear-gradient(90deg,rgba(30,30,30,.7) 0 1.5px,transparent 1.5px calc(100%/28)) left top/100% 9px no-repeat,var(--tape)}
+.tape:before{content:"";position:absolute;left:-14px;top:0;bottom:0;width:14px;border-radius:3px 0 0 3px;background:linear-gradient(90deg,#9aa0a6,#d9dde0 45%,#8b9197)}
+.seg{padding:18px 0 12px;text-align:center;border-left:1.5px solid rgba(30,30,30,.7)} .seg:first-child{border-left:0}
+.seg b{display:block;font:700 1rem/1 var(--sans);color:#1d1d1d} .seg i{display:block;margin-top:.45em;font:500 .72rem/1 var(--sans);font-style:normal;color:#4b431f;letter-spacing:.01em}
+.seg.today{background:var(--thread);box-shadow:inset 0 0 0 2px #0b5956} .seg.today b,.seg.today i{color:#05211f}
+.tapecap{margin:0 0 2em;font-size:.82rem;color:var(--mut)}
+.addr .big{margin:.15em 0 .05em;font:700 clamp(1.7rem,3vw,2.2rem)/1.12 var(--sans);letter-spacing:-.02em} .addr p{margin:0;color:var(--mut)} .addr p.big{color:var(--ink)}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.5em}
+.act{display:inline-flex;align-items:center;gap:.5em;text-decoration:none;font:700 .95rem/1 var(--sans);padding:1em 1.3em;border-radius:40px;border:2px solid var(--ink);color:var(--ink)}
+.act.go{background:var(--ink);color:#fff}
+.visit figure{margin:0;position:relative} .visit figure img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 35%;border-radius:12px}
+.visit figcaption{position:absolute;left:14px;bottom:14px;background:rgba(20,22,24,.78);color:#7ff0ea;padding:.6em .9em;border-radius:30px;font:700 .68rem/1 var(--sans);letter-spacing:.16em;text-transform:uppercase}
+.next{margin:60px 0 0;padding:22px 26px;border:2px dashed var(--rule);border-radius:12px} .next p{margin:.5em 0 0;color:#34373a}
+footer{padding:28px 0 46px;color:var(--mut);font:400 .82rem/1.7 var(--sans)} footer b{color:var(--ink)}
+.sticky{display:none}
+@media(max-width:860px){
+  :root{--pad:22px}
+  .hero{grid-template-columns:1fr;min-height:0} .hero .pic{order:-1;height:52vh} .hero .txt{padding:34px var(--pad) 46px}
+  .ask .grid{grid-template-columns:1fr;gap:30px}
+  .bring,.ask,.visit{padding-top:58px;padding-bottom:50px}
+  /* three pieces: swipe, with the next card peeking in */
+  .three{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:1.4em calc(var(--pad)*-1) 1.2em;padding:4px var(--pad) 12px}
+  .three::-webkit-scrollbar{display:none} .piece{flex:0 0 80%;scroll-snap-align:center}
+  .voice{padding:56px 0 64px} .vhead{margin-bottom:26px} .stars{font-size:1.35rem}
+  .labels{grid-template-columns:1fr;gap:20px} .label,.label.big{grid-row:auto;padding:30px 26px 24px} .label.big blockquote{font-size:1.5rem}
+  .vgrid{grid-template-columns:1fr;gap:34px}
+  .seg{padding:15px 0 10px} .seg b{font-size:.92rem} .seg i{font-size:.62rem}
+  .acts{display:grid;grid-template-columns:1fr 1fr} .act{justify-content:center} .act.go{grid-column:1/3;padding:1.15em}
+  body{padding-bottom:60px}
+  .sticky{display:flex;position:fixed;inset:auto 0 0 0;z-index:9;justify-content:center;background:var(--thread);color:#08302e;text-decoration:none;padding:16px;font:700 1rem/1 var(--sans)}
+}
+/* pass 2026-09-19: phone first screen, sewn-label buttons instead of pills, no reflex caps, one action */
+.cap{text-transform:none;letter-spacing:.01em;font-size:.88rem;font-weight:600}
+.btn{border-radius:0;outline:1.5px dashed rgba(8,48,46,.55);outline-offset:-6px}
+.chips button{border-radius:0}
+.chips button[aria-pressed=true]{outline:1.5px dashed rgba(8,48,46,.55);outline-offset:-5px}
+.act{border-radius:0} .act.go{outline:1.5px dashed rgba(255,255,255,.5);outline-offset:-6px} .act:not(.go){outline:1.5px dashed rgba(26,29,31,.35);outline-offset:-6px}
+.preview .wa,.send .wa,.wa{border-radius:0}
+.next{border:0;border-top:1px solid var(--rule);border-radius:0;padding:18px 0 0;margin-top:44px}
+@media(max-width:860px){
+  .hero .pic{height:42vh} .hero .txt{padding:20px var(--pad) 26px} .hero h2{margin:.15em 0 .3em} .hero p{margin-bottom:0;font-size:1rem}
+  .hero .cta{display:none}
+  .bring,.ask,.visit{padding-top:40px;padding-bottom:36px} .voice{padding:40px 0 44px}
+}
+.send a{border-radius:0;outline:1.5px dashed rgba(255,255,255,.45);outline-offset:-6px}
+.now{border-radius:0}
+.visit figcaption{border-radius:0}
+.langs{border-radius:3px}
+</style>
+</head>
+<body>
+<div class="notice"><b>Nikita</b> ·
+  <span data-lang="lv">Nesaistošs dizaina priekšlikums. Šī nav darbnīcas oficiālā mājaslapa.</span>
+  <span data-lang="ru" hidden>Дизайн-предложение без обязательств. Это не официальный сайт мастерской.</span>
+</div>
+
+<div class="top">
+  <header class="wrap mast">
+    <a class="logo" href="#">Burvju adatiņas</a>
+    <div class="langs" role="group" aria-label="Valoda"><button data-set="lv" aria-pressed="true">LV</button><button data-set="ru" aria-pressed="false">RU</button></div>
+  </header>
+  <div class="hero">
+    <div class="txt">
+      <div data-lang="lv">
+        <span class="cap" style="color:#7fd6d2">Šūšana · labošana · izšūšana</span>
+        <h2>Katram audumam — <i>savs diegs.</i></h2>
+        <p>Meistare Olga labo, pielāgo un šuj — no bikšu galiem līdz dizaineru kleitām. Ir klienti, kas viņu pazīst jau vairāk nekā 15 gadus. Strādājam katru dienu, arī brīvdienās.</p>
+        <div class="cta"><a class="btn" href="#jautat">Pajautāt par darbu</a><a class="tel" href="tel:+37122527266">22 527 266</a></div>
+      </div>
+      <div data-lang="ru" hidden>
+        <span class="cap" style="color:#7fd6d2">Пошив · ремонт · вышивка</span>
+        <h2>Для каждой ткани — <i>своя нить.</i></h2>
+        <p>Мастер Ольга чинит, подгоняет и шьёт — от низа брюк до дизайнерских платьев. Есть клиенты, которые знают её уже больше 15 лет. Работаем каждый день, в том числе по выходным.</p>
+        <div class="cta"><a class="btn" href="#jautat">Спросить о работе</a><a class="tel" href="tel:+37122527266">22 527 266</a></div>
+      </div>
+    </div>
+    <div class="pic"><img src="img/threads.jpg" alt="Diegu siena darbnīcā" width="1200" height="1600" fetchpriority="high"></div>
+  </div>
+</div>
+
+<main>
+<section class="bring"><div class="wrap">
+  <div data-lang="lv"><span class="cap">No klientu atsauksmēm</span><h2>Ko pie mums nes visbiežāk</h2></div>
+  <div data-lang="ru" hidden><span class="cap">По отзывам клиентов</span><h2>С чем приходят чаще всего</h2></div>
+  <div class="three">
+    <figure class="piece"><img src="img/jacket.jpg" alt="Žakete uz manekena" loading="lazy" width="1170" height="1462">
+      <div data-lang="lv"><h3>Garumi un piegulšana</h3><p>Bikšu gali, kleitas ar oderi, žaketes — lai sēž tā, it kā būtu šūts tieši jums.</p></div>
+      <div data-lang="ru" hidden><h3>Длина и посадка</h3><p>Низ брюк, платья с подкладкой, жакеты — чтобы сидело так, будто сшито на вас.</p></div></figure>
+    <figure class="piece"><img src="img/buttons.jpg" alt="Pogas uz skujiņas auduma" loading="lazy" width="731" height="914">
+      <div data-lang="lv"><h3>Pogas, rāvējslēdzēji, plīsumi</h3><p>Arī dūnu jakas — robu salabojam tā, ka to vairs neredz.</p></div>
+      <div data-lang="ru" hidden><h3>Пуговицы, молнии, разрывы</h3><p>В том числе пуховики — дыру зашиваем так, что её не видно.</p></div></figure>
+    <figure class="piece"><img src="img/machine.jpg" alt="Daudzadatu izšūšanas mašīna" loading="lazy" width="1170" height="1462">
+      <div data-lang="lv"><h3>Izšūšana</h3><p>Darbnīcā strādā daudzadatu izšūšanas mašīna — katram diegam sava adata.</p></div>
+      <div data-lang="ru" hidden><h3>Вышивка</h3><p>В мастерской работает многоигольная вышивальная машина — у каждой нити своя игла.</p></div></figure>
+  </div>
+  <hr class="stitch">
+  <p class="also" data-lang="lv"><span class="cap">Un vēl</span>šūšana pēc pasūtījuma · dizaineru un couture apģērbu labošana</p>
+  <p class="also" data-lang="ru" hidden><span class="cap">А ещё</span>пошив на заказ · ремонт дизайнерских и кутюрных вещей</p>
+</div></section>
+
+<section class="voice"><div class="wrap">
+  <div class="vhead">
+    <div data-lang="lv"><span class="cap">Google · 5,0 no 5 · 20 atsauksmes</span><h2>Pie viņas atgriežas.</h2></div>
+    <div data-lang="ru" hidden><span class="cap">Google · 5,0 из 5 · 20 отзывов</span><h2>К ней возвращаются.</h2></div>
+    <div class="stars" aria-hidden="true">★★★★★</div>
+  </div>
+  <div class="labels">
+    <figure class="label big">
+      <blockquote data-lang="lv">„Pazīstu viņu jau vairāk nekā <b>15 gadus</b>, un katru reizi pārliecinos — viņa ir patiešām talantīga.”</blockquote>
+      <blockquote data-lang="ru" hidden>«Знаю её уже больше <b>15 лет</b>, и каждый раз убеждаюсь — она настоящий талант.»</blockquote>
+      <figcaption><span data-lang="lv">Google atsauksme · ★★★★★</span><span data-lang="ru" hidden>Отзыв в Google · ★★★★★</span></figcaption>
+    </figure>
+    <figure class="label">
+      <blockquote data-lang="lv">„Uzplēstu robu dūnu jakā salaboja tik meistarīgi. Strādā arī brīvdienās.”</blockquote>
+      <blockquote data-lang="ru" hidden>«Разорванную дыру в пуховике зашила так мастерски. Работает и по выходным.»</blockquote>
+      <figcaption><span data-lang="lv">Google atsauksme · ★★★★★</span><span data-lang="ru" hidden>Отзыв в Google · перевод · ★★★★★</span></figcaption>
+    </figure>
+    <figure class="label">
+      <blockquote data-lang="lv">„Es viņai uzticēju arī dārgas dizaineru un couture drēbes, un viss tika izdarīts perfekti un ļoti skaisti.”</blockquote>
+      <blockquote data-lang="ru" hidden>«Я относила ей дорогие дизайнерские и кутюрные вещи, и всё было сделано просто идеально.»</blockquote>
+      <figcaption><span data-lang="lv">Google atsauksme · ★★★★★</span><span data-lang="ru" hidden>Отзыв в Google · ★★★★★</span></figcaption>
+    </figure>
+  </div>
+</div></section>
+
+<section class="ask" id="jautat"><div class="wrap">
+  <div data-lang="lv"><h2>Pajautājiet <i>Olgai</i></h2><p class="intro">Pastāstiet, kas jāizdara — atbildēsim ar cenu un termiņu. Nav jānāk tikai tāpēc, lai uzzinātu, vai to var izdarīt.</p></div>
+  <div data-lang="ru" hidden><h2>Спросите <i>Ольгу</i></h2><p class="intro">Расскажите, что нужно сделать — ответим с ценой и сроком. Не нужно приходить только затем, чтобы узнать, возможно ли это.</p></div>
+  <div class="grid">
+    <div>
+      <span class="cap" data-lang="lv">Kas par apģērbu</span><span class="cap" data-lang="ru" hidden>Что за вещь</span>
+      <div class="chips" data-k="item"></div>
+      <span class="cap" data-lang="lv">Kas jāizdara</span><span class="cap" data-lang="ru" hidden>Что нужно сделать</span>
+      <div class="chips" data-k="job" data-multi></div>
+      <span class="cap" data-lang="lv">Cik steidzami</span><span class="cap" data-lang="ru" hidden>Насколько срочно</span>
+      <div class="chips" data-k="when"></div>
+      <span class="cap" data-lang="lv">Vēl kas svarīgs</span><span class="cap" data-lang="ru" hidden>Что ещё важно</span>
+      <textarea id="note"></textarea>
+    </div>
+    <div class="preview">
+      <span class="cap" data-lang="lv">Ziņa, ko saņems Olga</span><span class="cap" data-lang="ru" hidden>Сообщение, которое получит Ольга</span>
+      <pre id="msg"></pre>
+      <div class="send"><a id="wa" href="#" rel="noopener"><span data-lang="lv">Sūtīt WhatsApp</span><span data-lang="ru" hidden>Отправить в WhatsApp</span></a></div>
+      <p class="tiny" data-lang="lv">Ziņa top jūsu ierīcē — šī lapa neko neglabā un nevienam nesūta jūsu vietā.</p>
+      <p class="tiny" data-lang="ru" hidden>Сообщение создаётся на вашем устройстве — страница ничего не хранит и никому не отправляет за вас.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="visit"><div class="wrap">
+  <div class="vgrid">
+    <div>
+      <div data-lang="lv"><span class="cap">Darba laiks</span><h2>Atvērts katru dienu</h2></div>
+      <div data-lang="ru" hidden><span class="cap">Часы работы</span><h2>Открыто каждый день</h2></div>
+      <p class="now" id="now" hidden></p>
+      <div class="tape" id="tape">
+        <div class="seg" data-d="1"><b><span data-lang="lv">P</span><span data-lang="ru" hidden>Пн</span></b><i>11–19</i></div>
+        <div class="seg" data-d="2"><b><span data-lang="lv">O</span><span data-lang="ru" hidden>Вт</span></b><i>11–19</i></div>
+        <div class="seg" data-d="3"><b><span data-lang="lv">T</span><span data-lang="ru" hidden>Ср</span></b><i>11–19</i></div>
+        <div class="seg" data-d="4"><b><span data-lang="lv">C</span><span data-lang="ru" hidden>Чт</span></b><i>11–19</i></div>
+        <div class="seg" data-d="5"><b><span data-lang="lv">Pk</span><span data-lang="ru" hidden>Пт</span></b><i>11–19</i></div>
+        <div class="seg" data-d="6"><b><span data-lang="lv">S</span><span data-lang="ru" hidden>Сб</span></b><i>11–19</i></div>
+        <div class="seg" data-d="0"><b><span data-lang="lv">Sv</span><span data-lang="ru" hidden>Вс</span></b><i>11–17</i></div>
+      </div>
+      <p class="tapecap"><span data-lang="lv">Darba laiks — kā norādīts Google kartēs.</span><span data-lang="ru" hidden>Часы работы — как указано в Google Картах.</span></p>
+      <div class="addr">
+        <div data-lang="lv"><span class="cap">Kur</span><p class="big">Brīvības gatve 201</p><p>Rīga, LV-1039</p></div>
+        <div data-lang="ru" hidden><span class="cap">Где</span><p class="big">Бривибас гатве 201</p><p>Рига, LV-1039</p></div>
+      </div>
+      <div class="acts">
+        <a class="act go" href="tel:+37122527266"><span data-lang="lv">Zvanīt · 22 527 266</span><span data-lang="ru" hidden>Позвонить · 22 527 266</span></a>
+        <a class="act" href="https://www.google.com/maps/search/?api=1&query=Burvju+adati%C5%86as+Br%C4%ABv%C4%ABbas+gatve+201+R%C4%ABga" rel="noopener"><span data-lang="lv">Karte ↗</span><span data-lang="ru" hidden>Карта ↗</span></a>
+        <a class="act" href="https://www.instagram.com/burvju_adatinas/" rel="noopener">Instagram ↗</a>
+      </div>
+    </div>
+    <figure><img src="img/studio.jpg" alt="Burvju adatiņas darbnīca ar tirkīza neona uzrakstu" loading="lazy" width="1400" height="1866"><figcaption><span data-lang="lv">Meklējiet tirkīza uzrakstu</span><span data-lang="ru" hidden>Ищите бирюзовую вывеску</span></figcaption></figure>
+  </div>
+  <div class="next" data-lang="lv"><span class="cap">Ja šis priekšlikums interesē — nākamie soļi</span><p>Cenrādis biežākajiem darbiem, precizēts ar jums · darbu galerija no jūsu Instagram · angļu valoda · Google kartes poga „Vietne” ved uz šo lapu (šobrīd — uz Instagram).</p></div>
+  <div class="next" data-lang="ru" hidden><span class="cap">Если предложение интересно — следующие шаги</span><p>Прайс на частые работы, уточнённый с вами · галерея работ из вашего Instagram · английский язык · кнопка «Сайт» в Google Картах ведёт на эту страницу (сейчас — в Instagram).</p></div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><b>Burvju adatiņas</b> · Brīvības gatve 201, Rīga, LV-1039 · 22 527 266<br>
+  <span data-lang="lv">Fotogrāfijas: Burvju adatiņas un Olga Kezika (Google Maps) · Dizaina priekšlikums: Nikita · ngoloveckis@gmail.com</span>
+  <span data-lang="ru" hidden>Фотографии: Burvju adatiņas и Olga Kezika (Google Maps) · Дизайн-предложение: Nikita · ngoloveckis@gmail.com</span></div></footer>
+<a class="sticky" href="#jautat"><span data-lang="lv">Pajautāt par darbu</span><span data-lang="ru" hidden>Спросить о работе</span></a>
+
+<script>
+const T={
+ lv:{item:['Bikses','Kleita','Svārki','Žakete','Virsjaka','Cits'],job:['Saīsināt','Sašaurināt / pielāgot','Rāvējslēdzējs','Salabot plīsumu','Izšūt','Šūt no jauna'],when:['Nav steigas','Līdz nedēļas nogalei','Steidzami'],
+     ph:'piem., kleita ar oderi, jāsaīsina par 5 cm; vajag līdz sestdienai',hi:'Labdien, Olga!',i:'Apģērbs: ',j:'Jāizdara: ',w:'Termiņš: ',n:'Piezīmes: ',q:'Cik tas maksātu un kad varu atnest?'},
+ ru:{item:['Брюки','Платье','Юбка','Жакет','Куртка','Другое'],job:['Укоротить','Ушить / подогнать','Молния','Зашить разрыв','Вышить','Сшить новое'],when:['Не срочно','До выходных','Срочно'],
+     ph:'напр., платье с подкладкой, укоротить на 5 см; нужно к субботе',hi:'Здравствуйте, Ольга!',i:'Вещь: ',j:'Нужно: ',w:'Срок: ',n:'Примечания: ',q:'Сколько это будет стоить и когда можно принести?'}};
+let lang='lv';const S={item:-1,job:[],when:-1};
+function chips(){document.querySelectorAll('.chips').forEach(g=>{const k=g.dataset.k,multi=g.hasAttribute('data-multi');g.innerHTML='';
+  T[lang][k].forEach((t,i)=>{const b=document.createElement('button');b.type='button';b.textContent=t;
+    b.setAttribute('aria-pressed',String(multi?S[k].includes(i):S[k]===i));
+    b.onclick=()=>{if(multi){S[k]=S[k].includes(i)?S[k].filter(x=>x!==i):[...S[k],i];}else{S[k]=S[k]===i?-1:i;}chips();draw();};g.appendChild(b);});});}
+function draw(){const t=T[lang],note=document.getElementById('note').value.trim(),L=[t.hi];
+  L.push(t.i+(S.item>-1?t.item[S.item].toLowerCase():'—'));
+  L.push(t.j+(S.job.length?S.job.sort().map(i=>t.job[i].toLowerCase()).join(', '):'—'));
+  if(S.when>-1)L.push(t.w+t.when[S.when].toLowerCase());
+  if(note)L.push(t.n+note);L.push(t.q);
+  const m=L.join('\n');document.getElementById('msg').textContent=m;
+  document.getElementById('wa').href='https://wa.me/37122527266?text='+encodeURIComponent(m);}
+function set(l){lang=l;document.querySelectorAll('[data-lang]').forEach(el=>{el.hidden=el.dataset.lang!==l});
+  document.querySelectorAll('.langs button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.set===l)));
+  document.documentElement.lang=l;document.getElementById('note').placeholder=T[l].ph;chips();draw();}
+document.querySelectorAll('.langs button').forEach(b=>b.addEventListener('click',()=>set(b.dataset.set)));
+document.getElementById('note').addEventListener('input',draw);
+function openNow(){const el=document.getElementById('now');try{
+  const parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Riga',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date());
+  const g=k=>parts.find(x=>x.type===k).value, d=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(g('weekday')), m=(+g('hour'))*60+(+g('minute'));
+  const close=x=>x===0?17*60:19*60, open=11*60, hh=x=>String(Math.floor(x/60)).padStart(2,'0')+':00';
+  document.querySelectorAll('.seg').forEach(s=>s.classList.toggle('today',+s.dataset.d===d));
+  const L={lv:{o:'Šobrīd atvērts — līdz ',t:'Šobrīd slēgts — atveram šodien ',r:'Šobrīd slēgts — atveram rīt '},ru:{o:'Сейчас открыто — до ',t:'Сейчас закрыто — откроемся сегодня в ',r:'Сейчас закрыто — откроемся завтра в '}}[lang];
+  const isOpen=m>=open&&m<close(d); el.textContent=isOpen?L.o+hh(close(d)):(m<open?L.t+hh(open):L.r+hh(open)); el.classList.toggle('shut',!isOpen); el.hidden=false;
+ }catch(e){el.hidden=true}}
+const _set=set; set=function(l){_set(l);openNow()};
+set('lv');
+</script>
+</body>
+</html>
